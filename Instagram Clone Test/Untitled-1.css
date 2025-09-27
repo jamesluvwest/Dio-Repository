@@ -1,0 +1,150 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Estilo do corpo da página */
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Container principal */
+
+.instagram-wrapper {
+    background-color: white;
+    width: 360px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/* Imagem do celular */
+
+.instagram-phone img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+/* Logo do Instagram */
+
+.instagram-logo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+
+/* Foto de perfil (aumentada) */
+
+.profile-photo img {
+    width: 110px;
+    /* AUMENTADO */
+    height: 110px;
+    /* AUMENTADO */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+/* Botão azul de login */
+
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+.instagram-login:hover {
+    background-color: #007acc;
+}
+
+
+/* Link de logout */
+
+.instagram-logout {
+    color: #00376b;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.instagram-logout:hover {
+    text-decoration: underline;
+}
+
+
+/* Texto de "não é sua conta?" */
+
+.not-account {
+    font-size: 14px;
+    color: #262626;
+    margin-bottom: 8px;
+}
+
+
+/* Link azul de troca de conta */
+
+.link-blue {
+    color: #0095f6;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.link-blue:hover {
+    text-decoration: underline;
+}
+
+
+/* Texto: Baixe o app */
+
+.get-the-app {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin: 20px 0 10px;
+}
+
+
+/* Área dos botões de download */
+
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* Imagens da App Store e Google Play */
+
+.download img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
+}

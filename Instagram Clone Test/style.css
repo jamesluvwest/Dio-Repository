@@ -1,0 +1,134 @@
+/* Reset básico */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* Estrutura principal */
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Imagem do celular */
+
+.instagram-phone {
+    display: none;
+}
+
+.instagram-phone img {
+    height: 600px;
+}
+
+
+/* Seção de login */
+
+.instagram-login-section {
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    text-align: center;
+}
+
+
+/* Logo do Instagram */
+
+.instagram-logo {
+    width: 175px;
+    margin: 0 auto 20px;
+}
+
+
+/* Foto de perfil */
+
+.profile-photo img {
+    width: 80px;
+    /* ↓ reduzido para corrigir o tamanho */
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+
+/* Botões de login */
+
+.instagram-login,
+.instagram-logout {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.instagram-login {
+    color: #fff;
+    background-color: #0095f6;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    font-size: 14px;
+}
+
+
+/* Texto extra */
+
+.not-account {
+    font-size: 14px;
+    margin: 20px 0 10px;
+}
+
+.link-blue {
+    color: #0095f6;
+    cursor: pointer;
+}
+
+.get-the-app {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #8e8e8e;
+}
+
+
+/* Imagens de download */
+
+.download {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.download img {
+    height: 40px;
+}
+
+
+/* Mostra o celular em telas grandes */
+
+@media (min-width: 900px) {
+    .instagram-wrapper {
+        gap: 50px;
+    }
+    .instagram-phone {
+        display: block;
+    }
+}
